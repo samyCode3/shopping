@@ -1,0 +1,664 @@
+*
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body 
+{
+    background-color: rgb(229, 219, 219);
+}
+.main_container 
+{
+    padding: 12px;
+    overflow: auto;
+}
+.ul_controller
+{
+    
+    height: 7vh;
+    font-size: 2vh;
+    max-height: 10vh;
+}
+
+.ul_controller ul
+{
+ display: flex;
+ justify-content: space-around;
+ justify-self: center;
+
+}
+.ul_controller a
+{
+    list-style: none;
+  text-decoration: none;
+  color: rgb(57, 118, 138);
+  font-family:fantasy;
+  font-style: oblique;
+    font-weight: 50;
+    
+
+}
+.section1 
+{
+    height:  calc(100vh - 10vh);
+    width: 100%;
+    background-image: url("../images/Multicolor-05-2.3.001-bigpicture_05_1.jpg");
+    background-repeat: no-repeat;
+     top: 0;
+     left: 0;
+      z-index: -1; 
+      background-position: center;
+      background-size: cover;
+}
+
+.section1 .banner
+{
+    height: 170px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: cursive;
+    z-index: 8;
+}
+.section1 .banner a 
+{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    font-size: 3vh;
+    font-family: fantasy;
+    font-weight: 200;
+    height: 5vh;
+    width: 20vh;
+}
+.section1 .banner a:hover 
+{
+    background-color: black;
+    color: white;
+}
+.body
+{
+    height:  calc(100vh - 10vh);
+    width: 100%;
+    background-image: url("../images/Multicolor-01-2.3.001-bigpicture_01_16.jpg");
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+     z-index: -1; 
+     background-position: center;
+     background-size: cover
+}
+.login_sys 
+{
+    margin-top: 6vh;
+    top: 50%;
+    left: 20%;
+    height :auto;
+    width: 100vh;
+   background-color: rgba(255, 255, 255, 0.7);
+    
+}
+.login_sys .login 
+{
+ display: inline-block;
+ margin: 5vh;
+ 
+}
+
+.login_sys .login input 
+{
+    height: 8vh;
+    width: 90vh;
+    margin-top: 2vh;
+}
+.register 
+{
+    height: 5vh;
+    width: 15vh;
+    margin-top: 2vh;
+    background-color: transparent;
+    
+}
+.register:hover 
+{
+    
+    color: blue;
+    transform: translate(-5px, -5px);
+}
+.login_sys p 
+{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    font-family: fantasy;
+    font-size:5vh;
+}
+.auth_signup_login 
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.auth_signup_login h5 
+{
+    margin-left: 50vh;
+    font-size: 3vh;
+}
+.auth_signup_login a 
+{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+.auth_signup_login a:hover 
+{
+    color: blue;
+}
+
+.error 
+{
+    color : rgb(120, 50, 50);
+    text-align: center;
+}
+.success
+{
+    color : rgb(135, 197, 42);
+    text-align: center;
+}
+
+.null
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 97, 97);
+
+}
+.main_container_pic
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_getter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 85vh;
+   width: 110vh;
+}
+.image_sect img 
+{
+    height : 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px black solid;
+    
+}
+
+.profile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    height: 5vh;
+    width: 25vh;
+    border-radius: 50px;
+    background-color:green;
+    margin-top: 3vh;
+}
+.p-file
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(147, 114, 53);
+    font-size: 4vh;
+    margin-bottom: 3vh;
+}
+.file 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.btn-active 
+{
+    background-color: transparent;
+    border: none;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: 100;
+    color: black;
+}
+.btn-active:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.name_style 
+{
+    color: green;
+    font-family: cursive;
+    margin-left: 3.5vh;
+}
+.profile_home 
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-right: 3vh;
+}
+.main_home_container
+{
+   
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.first_container
+{
+    background-color: #eee;
+    height: 30em;
+    width: 12em;
+    margin-left: 12vh;
+    margin-top: 3vh;
+    padding-left: 3vh;
+}
+.first_container .list_product
+{
+    display: block;
+    justify-content: space-between;
+    justify-items: auto;
+  
+}
+.list_product ul 
+{
+    margin-right: 5vh;
+}
+.list_product .list_link
+{
+    padding: 3px;
+    list-style: none;
+    text-decoration: none;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: 100;
+    color: black;
+   
+}
+
+.second_container
+{
+    
+    background-color: #eee;
+    height: 30em;
+    width: 47em;
+    margin-right:50vh;
+    overflow: auto;
+    margin-top: 3vh;
+}
+.second_container .product_cat
+{
+  text-align: center;
+  text-transform: uppercase;
+}
+.second_container .product_cat h4 
+{
+    color : green;
+    font-family: cursive;
+}
+.second_container .product_cat h3
+{
+    color : rgb(160, 113, 25);
+    font-family: cursive;
+}
+.second_container .product_image 
+{
+   
+    display: inline-block;
+    padding: 5vh;
+    margin-left: 14vh;
+}
+.second_container .product_image img
+{
+   
+    height: 20vh;
+    width: 30vh;
+    
+}
+.second_container .product_image a 
+{
+    text-decoration: none;
+    margin-left: 8vh;
+    color: black;
+    font-weight: 100;
+    font-family: cursive;
+}
+.second_container .product_image a:hover
+{
+  color: green;
+}
+.second_container .product_image h2 
+{
+    margin-left: 8vh;
+    font-size: 3vh;
+    font-weight: 50;
+}
+.second_container .product_image h3
+{
+    margin-left: 8vh;
+    font-size: 3vh;
+    font-weight: 50;
+}
+.second_container .product_image h4
+{
+    color: green;
+}
+
+.head_container 
+{
+    background-color:#eee;
+    height: 2em;
+    width: 80em;
+}
+
+
+.first 
+{
+   display: flex;
+   justify-content: space-between;
+   justify-items: center;
+   flex-direction: column;
+   margin-top: 20vh;
+}
+.first .other 
+{
+color: black;
+font-size: 5vh;
+font-weight: 300;
+font-family: fantasy;
+display:flex;
+}
+
+.first .other h5 
+{
+    color: rgb(79, 75, 75);
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.first .other .span_text
+{
+    color: rgb(109, 145, 109);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 2vh;
+    font-style: oblique;
+}
+.ani 
+{
+    color: rgb(57, 118, 138);
+    font-size: 3vh;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: 100;
+    
+}
+
+.ani2 {
+    color: rgb(57, 118, 138);
+    font-size: 3vh;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: 100;
+}
+.pop 
+{
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    color: rgb(57, 118, 138);
+    height: 6vh;
+    width: 35vh;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 4vh;
+    animation-duration: 1s;
+    animation-name: shakie;
+    animation-delay: 0.5;
+    animation-iteration-count: infinite;
+    
+}
+.pop:hover 
+{
+    color: green;
+    cursor: pointer;
+    
+}
+
+.btn-reg
+{
+
+  height: 8vh;
+  width: 20vh;
+  margin-top: 3vh;
+  background-color:green;
+  border: none;
+  border-radius: 50px;
+  margin-left: 15vh;
+
+}
+.loader 
+{
+   
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    border-left:2px solid red;
+    display : none;
+    animation-name: rotate;
+    animation-delay:1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.store_package 
+{
+    position: absolute;
+    height:  30vh;
+    width: 70vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 25vh;
+}
+
+.store_package 
+{
+    display: none;
+}
+.input_storing
+{
+    height: 5vh;
+    width: 40vh;
+    margin-top: 3vh;
+    margin-left: 15vh;
+}
+
+@keyframes rotate {
+    100% 
+    {
+        transform : rotate(360deg);
+        opacity: 1;
+    }
+}
+@keyframes shakie {
+    100% 
+    {
+        transform : translateX(25px);
+        opacity: 1;
+    }
+}
+.error-2{
+  color: rgb(234, 9, 9);
+  font-size: 2vh;
+  text-align: center;
+}
+.notification_banner 
+{
+    position: absolute;
+    text-align: center;
+    height: auto;
+    width: 60vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-left: 30vh;
+
+}
+.notification_banner h5{
+    font-size: 2vh;
+    font-family: cursive;
+    font-weight: 50;
+    font-style: oblique;
+}
+.first h6 
+{
+    color: green;
+    font-size: 5vh;
+    font-family: fantasy;
+    font-weight: 50;
+    font-style: oblique;
+
+}
+.noti 
+{
+    color: green;
+    font-size: 5vh;
+    font-family: fantasy;
+    font-weight: 50;
+    font-style: oblique;
+    text-align: center;
+}
+
+.link_put 
+{
+    height : 5vh;
+    width: 50vh;
+}
+#btn_link 
+{
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    color: rgb(57, 118, 138);
+    height: 6vh;
+    width: 30vh;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 4vh;
+    animation-duration: 1s;
+    animation-name: shakie;
+    animation-delay: 0.5;
+    animation-iteration-count: infinite;
+    margin-top: 3vh;
+}
+
+#btn_link:hover 
+{
+    color: green;
+}
+.notification_banners h5 
+{
+    color: rgb(57, 118, 138);
+    height: 6vh;
+    width: 30vh;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 4vh;
+}
+
+.dom 
+{
+    color: green;
+    display: none;
+}
+.noti_get 
+{
+    display: inline-block;
+}
+.noti_get a
+{
+    text-decoration: none;
+}
+
+.input_view_storing 
+{
+    display: inline-block;
+    justify-content: space-around;
+    justify-self: center;
+    justify-items: center;
+}
+
+.input_view_storing .input 
+{
+  height: 3em;
+  width: 60vh;
+  margin-top: 1vh;
+}
+.update_btn 
+{
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    color: rgb(57, 118, 138);
+    height: 6vh;
+    width: 30vh;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 4vh;
+    animation-duration: 1s;
+    animation-name: shakie;
+    animation-delay: 0.5;
+    animation-iteration-count: infinite;
+    margin-top: 3vh; 
+}
+.view_banner
+{
+    position: absolute;
+    text-align: center;
+    height: auto;
+    width: 60vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-left: 30vh;
+    margin-bottom: 10vh;
+
+}
+
+.section_one 
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}

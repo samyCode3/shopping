@@ -1,0 +1,10 @@
+CREATE DATABASE registration;
+
+CREATE TABLE users (
+   id INT PRIMARY KEY AUTO_INCREMENT,
+   firstname VARCHAR(256) NOT NULL, 
+   lastname VARCHAR(256) NOT NULL, 
+   email  VARCHAR(256) NOT NULL,
+   passwords VARCHAR(256) NOT NULL,
+   confirm VARCHAR(256) NOT NULL
+);

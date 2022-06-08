@@ -1,0 +1,101 @@
+{
+    "weather": {
+        Current temperature in Nigeria 24 celcuisovercast clouds
+NG
+Array
+(
+    [coord
+        ] => Array
+        (
+            [lon
+        ] => 8
+            [lat
+        ] => 10
+        )
+
+    [weather
+        ] => Array
+        (
+            [
+            0
+        ] => Array
+                (
+                    [id
+        ] => 804
+                    [main
+        ] => Clouds
+                    [description
+        ] => overcast clouds
+                    [icon
+        ] => 04n
+                )
+
+        )
+
+    [base
+        ] => stations
+    [main
+        ] => Array
+        (
+            [temp
+        ] => 297.11
+            [feels_like
+        ] => 297.52
+            [temp_min
+        ] => 297.11
+            [temp_max
+        ] => 297.11
+            [pressure
+        ] => 1011
+            [humidity
+        ] => 75
+            [sea_level
+        ] => 1011
+            [grnd_level
+        ] => 925
+        )
+
+    [visibility
+        ] => 10000
+    [wind
+        ] => Array
+        (
+            [speed
+        ] => 2.77
+            [deg
+        ] => 185
+            [gust
+        ] => 7.71
+        )
+
+    [clouds
+        ] => Array
+        (
+            [all
+        ] => 100
+        )
+
+    [dt
+        ] => 1652491975
+    [sys
+        ] => Array
+        (
+            [country
+        ] => NG
+            [sunrise
+        ] => 1652504834
+            [sunset
+        ] => 1652550096
+        )
+
+    [timezone
+        ] => 3600
+    [id
+        ] => 2328926
+    [name
+        ] => Nigeria
+    [cod
+        ] => 200
+)
+    }
+}

@@ -1,0 +1,129 @@
+
+body
+{
+    background-color: black; 
+}
+.user_message .user_container
+{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 2rem;
+  
+
+}
+
+.message
+{
+
+ color: black;
+ font-family: fantasy;
+ border: none;
+ outline: none;
+ font-size: 1rem;
+ font-weight: none;
+ padding: 1rem;
+ background-color: rgba(255, 255, 255, 0.392);
+ height: 0.5rem;
+}
+.user_message .user_container .message_container_1 
+{
+    height: 25rem;
+    width: 40%;
+    background-color: rgba(68, 68, 68, 0.355);
+    margin-top: 2rem;
+    margin-right: 2rem;
+    overflow:auto;
+    
+}
+.user_message .user_container .message_container_2 
+{
+    
+    height:33rem;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: rgba(68, 68, 68, 0.355);
+    margin-right: 10rem;
+    overflow: auto;
+}
+.user_message .user_container .chat_name 
+{
+    color: white;
+    
+} 
+.user_message .user_container .chat_name a
+{
+    color: white;
+    text-decoration: none;
+    
+} 
+.user_message .user_container .user_profile img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+} 
+.user_profile 
+{
+    display:block;
+    justify-content: center;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.chat-1 
+{
+    
+    color: white;
+    border-radius: 50px;
+    max-width: 30%;
+    padding: 2rem;
+    margin-top: 2rem;
+    font-size:0.9rem;
+    margin-left: 2rem;
+}
+.chat-2
+{
+    display: block;
+    color: white;
+    border-radius: 50px;
+    max-width: 30%;
+    padding: 2rem;
+   
+    font-size:0.9rem;
+    float: right;
+    margin-right: 1rem;
+}
+.message-input 
+{
+    
+  width: 20rem;
+   height: 2rem;
+   
+  
+}
+.message_btn 
+{
+    
+ background-color: rgb(56, 56, 246);
+ border: none;
+ margin-left: 1rem;
+ height: 2rem;
+
+}
+.message_btn:hover
+{
+    
+color: green;
+ 
+}
+.mess_in
+{
+    
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+   
+}
+
